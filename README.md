@@ -24,6 +24,7 @@ Intégration et fusion : Lorsque le code front-end et back-end seras prêt, les 
 
 # ARCHITECTURE
 
+```architercture{
 /sae-3.01
 │
 ├── /client # Code du front-end tailwind
@@ -54,3 +55,7 @@ Intégration et fusion : Lorsque le code front-end et back-end seras prêt, les 
 ├── README.md
 ├── .gitignore
 └── ...
+
+}
+
+```
