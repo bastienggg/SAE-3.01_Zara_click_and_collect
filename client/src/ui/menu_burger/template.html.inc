@@ -32,11 +32,17 @@
       <p class="hover:cursor-pointer active:font-extrabold">enfants</p>
       <p class="hover:cursor-pointer active:font-extrabold">zara pre-owned</p>
     </div>
-    <ul class="flex flex-col list-none p-8">
-      <li class="uppercase hover:cursor-pointer active:font-extrabold">
+    <ul class="flex flex-col list-none p-8 gap-4">
+      <li
+        class="uppercase hover:cursor-pointer active:font-extrabold"
+        id="menu-burger-item"
+      >
         ///nouveautés
       </li>
-      <li class="uppercase hover:cursor-pointer active:font-extrabold">
+      <li
+        class="uppercase hover:cursor-pointer active:font-extrabold"
+        id="menu-burger-item"
+      >
         tout voir
       </li>
       <!-- insertion des catégories en dynamique -->

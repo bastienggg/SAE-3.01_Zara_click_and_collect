@@ -1,7 +1,7 @@
 // import { ProductData } from "./data/product.js";
 // import { ProductView } from "./ui/product/index.js";
 import { navView } from "./ui/navbar/index.js";
-// import { setupCloseMenuListener } from "./ui/menu_burger/index.js";
+// import { burgerMenuView } from "./ui/menu_burger/index.js";
 
 // import '../dist/style.css';
 
