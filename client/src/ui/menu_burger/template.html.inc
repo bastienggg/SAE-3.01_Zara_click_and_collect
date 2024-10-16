@@ -36,6 +36,9 @@
       <li class="uppercase hover:cursor-pointer active:font-extrabold">
         ///nouveautés
       </li>
+      <li class="uppercase hover:cursor-pointer active:font-extrabold">
+        tout voir
+      </li>
       <!-- insertion des catégories en dynamique -->
     </ul>
   </div>

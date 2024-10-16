@@ -17,9 +17,17 @@ let navView = {
                     // Ajoutez ici le code à exécuter lors du clic
                     const templateFile2 = fetch("src/ui/menu_burger/template.html.inc");
                     templateFile2.then(response => response.text()).then(template2 => {
-                        document.querySelector("#burger").innerHTML = template2;
-                    });
+                        const burgerElement = document.querySelector("#burger");
+                        burgerElement.innerHTML = template2;
+                        burgerElement.style.display = 'flex';
 
+                        const closeMenu = document.getElementById('close-menu');
+                        if (closeMenu) {
+                            closeMenu.addEventListener('click', () => {
+                                burgerElement.style.display = 'none';
+                            });
+                        }
+                    });
                 });
             }
         }, 0);
