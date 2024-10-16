@@ -5,7 +5,10 @@ export default {
     "./src/**/*.{inc,html}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      'white': 'hsl(var(--clr-white) / <alpha-value>)',
+      'black': 'hsl(var(--clr-black) / <alpha-value>)',
+    }
   },
   plugins: [],
 }
