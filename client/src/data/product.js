@@ -36,9 +36,19 @@ let fakeProducts = [
     }
 ];
 
+ProductData.fetch = async function (id) {
+    let data = await getRequest('products/' + id);
+    return data == false ? fakeProducts.pop() : [data];
+}
+
 ProductData.fetchAll = async function () {
-    return fakeProducts;
-};
+    let data = await getRequest('products');
+    return data == false ? fakeProducts : data;
+}
+
+// ProductData.fetchAll = async function () {
+//     return fakeProducts;
+// };
 
 
 
