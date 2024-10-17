@@ -585,6 +585,10 @@ body {
   margin: 1rem;
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -613,6 +617,10 @@ body {
   width: 100vw;
 }
 
+.w-1\/5 {
+  width: 20%;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
@@ -629,12 +637,24 @@ body {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -651,6 +671,18 @@ body {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .rounded-lg {
@@ -721,6 +753,10 @@ body {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .uppercase {

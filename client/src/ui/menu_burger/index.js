@@ -1,17 +1,17 @@
-// const templateFile = await fetch("src/ui/menu_burger/template.html.inc");
-// await templateFile.text();
+import { genericRenderer } from "../../lib/utils.js";
 
-// function burgerMenuView() {
-//     return {
-//         init: function () {
-//             document.querySelectorAll('li').forEach(function (li) {
-//                 li.addEventListener('click', function () {
-//                     console.log('List item clicked:', li.textContent);
-//                 });
-//             });
-//         }
-//     };
-// }
+const templateFile = await fetch("src/ui/menu_burger/template.html.inc");
+const template = await templateFile.text();
 
 
-// export { burgerMenuView };
+let MenuBurgerView = {
+
+    render: function (data) {
+        let html = "";
+        html = template;
+        return html;
+    }
+
+}
+
+export { MenuBurgerView };

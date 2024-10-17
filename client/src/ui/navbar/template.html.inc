@@ -23,6 +23,8 @@
         height="41"
         viewBox="0 0 132 55"
         fill="none"
+        id="home-btn"
+        class="hover:cursor-pointer"
       >
         <g clip-path="url(#clip0_32_5)">
           <path
